@@ -9,6 +9,7 @@ int main(int argc,char *argv[]){
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     data_send = rank;
+    
 
     if (rank == 0){
         MPI_Send(&data_send, 1,MPI_INT, 1,0, MPI_COMM_WORLD);
