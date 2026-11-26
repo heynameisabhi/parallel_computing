@@ -14,6 +14,7 @@ int is_prime(int num){
 
 }
 
+
 int main() {
     int n;
     printf("Enter the upper limit (n) to find prime numbers: ");
