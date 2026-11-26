@@ -17,6 +17,7 @@ int fib(int n){
 
     }
 }
+
 int main(){
     int n;
     printf("Enter the Fibonacci number to calculate:");
