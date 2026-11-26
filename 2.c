@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <omp.h>
 
+
 int main(){
     int num_iterations;
     printf("Enter the number of iterations: ");
