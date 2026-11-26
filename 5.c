@@ -15,6 +15,7 @@ int main(int argc, char *argv[]){
         MPI_Finalize();
         return 0;
     }
+    
     if (rank == 0){
         number  =42;
         printf("Process 0 is sending number %d to Process 1\n",number);
