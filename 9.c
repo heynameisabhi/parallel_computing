@@ -14,6 +14,7 @@ int main(int argc, char** argv) {
     MPI_Allreduce(&value, &max, 1, MPI_INT, MPI_MAX, MPI_COMM_WORLD);
     MPI_Allreduce(&value, &min, 1, MPI_INT, MPI_MIN, MPI_COMM_WORLD);
 
+    
     if (rank == 0)
         printf("Reduce SUM (only root): %d\n", sum);
 
