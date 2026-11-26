@@ -8,6 +8,7 @@ int main(int argc,char** argv) {
 
     if (rank == 0)
         data =100;
+
     
     MPI_Bcast(&data,1,MPI_INT, 0, MPI_COMM_WORLD);
     printf("Process %d received data: %d\n", rank,data);
