@@ -3,6 +3,7 @@
 #include <omp.h>
 #include <math.h>
 
+
 int is_prime(int num){
     if(num<=1) return 0;
     if(num==2) return 1;
